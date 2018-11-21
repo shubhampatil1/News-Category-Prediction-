@@ -6,7 +6,7 @@
 
 ## Data 
   This dataset contains around 125k news headlines from the year 2013 to 2018 obtained from HuffPost.
-  [Data File](https://drive.google.com/open?id=1_g0qNjlqMGTKw5ipcJ_L5-FybsAgRNZS)
+  [Click here for Data File](https://drive.google.com/open?id=1_g0qNjlqMGTKw5ipcJ_L5-FybsAgRNZS)
   
   
   ###### Models implemented:
