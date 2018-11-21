@@ -1,7 +1,8 @@
-# News-Category-Prediction-
+# News Category Prediction
 
 ## Problem Statement 
   Build a ML model in python that can Identify the category of news based on headlines and short descriptions.
+
 
 ## Data 
   This dataset contains around 125k news headlines from the year 2013 to 2018 obtained from HuffPost.
@@ -12,7 +13,8 @@
  * Support Vector Machines 
  * Neural Network with Softmax Layer
 
-<p>Sample data</p>
+
+###### Sample data
 
     {
     "short_description": "She left her husband. He killed their children. Just another day in America.",
@@ -23,10 +25,11 @@
     "category" : "CRIME"
     }
 
-## Content
-<p>Each news headline has a corresponding category.</p>
 
-<p>Categories and corresponding article counts are as follows:</p>
+## Content
+ Each news headline has a corresponding category.
+
+Categories and corresponding article counts are as follows:
 
     POLITICS: 32739
     ENTERTAINMENT: 14257
@@ -60,27 +63,29 @@
     LATINO VOICES: 1129
     EDUCATION: 1004
 
-## Data Cleaning
-<p> 1. The date variable consists of timestamp which may lead to a problem while classifying a text so its better to drop date variable.</P>
-<p> 2. The row 13312 authors variable has '\n' and it will classify authors data into two strings, only if we use \n as a separator. The best way to over come this problem is to impute the authors data by removing \n.</p>
 
-## 
+## Data Cleaning
+* The date variable consists of timestamp which may lead to a problem while classifying a text so its better to drop date variable.</P>
+* The row 13312 authors variable has '\n' and it will classify authors data into two strings, only if we use \n as a separator. The best way to over come this problem is to impute the authors data by removing \n.</p>
+
 
 ## Text Classification
 
 ###### Feature Extraction Techniques:
-The collection of text documents is converted to a matrix of token counts using count vectorize that produces a sparse representation of the counts.
 
-TFIDF,term frequency–inverse document frequency, is the statistic that is intended to reflect how important a word is to a document in our corpus. This is used to extract the most meaningful words in the Corpus. 
+* The collection of text documents is converted to a matrix of token counts using count vectorize that produces a sparse representation of the counts.
+
+* TFIDF,term frequency–inverse document frequency, is the statistic that is intended to reflect how important a word is to a document in our corpus. This is used to extract the most meaningful words in the Corpus. 
 
 ###### Description
-<p> After the cleaning process the next step is to clasification of given text to the form which is familier for all the ML algorithems. The input file is json which can be red easily by pandas library. when we read json file using pandas the file data will be stored in pandas core dataframe. I have converted each observation into separate text file groupped by their respective category folders and the whole data is stored in local file data2. Using glob library each file directory is found, the variables headline, descriptions are joined with space separator and the result it fed to training data dictionary key data. The respective category index is stored in the flag key of training data. Now the training dictionary is converted to dataframea and the collection of text documents is converted to a matrix of token counts using count vectorize that produces a sparse representation of the counts.r. Later this vector data is converted to TF IDF form which can be understood by ML models.
+<p> After the cleaning process the next step is to clasification of given text to the form which is familier for all the ML algorithems. The input file is json which can be red easily by pandas library. when we read json file using pandas the file data will be stored in pandas core dataframe. I have converted each observation into separate text file groupped by their respective category folders and the whole data is stored in local file data2. Using glob library each file directory is found, the variables headline, descriptions are joined with space separator and the result it fed to training data dictionary key data. The respective category index is stored in the flag key of training data. Now the training dictionary is converted to dataframea and the collection of text documents is converted to a matrix of token counts using count vectorize that produces a sparse representation of the counts.r. Later this vector data is converted to TF IDF form which can be understood by ML models.</p>
  
 ###### Packages Required
 
    * Sklearn
    * Pandas
    * Numpy
+
 
 ## Results
 
