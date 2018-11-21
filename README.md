@@ -1,10 +1,10 @@
 # News-Category-Prediction-
 
 ## Problem Statement 
-                Build a ML model in python that can Identify the category of news based on headlines and short descriptions.
+  Build a ML model in python that can Identify the category of news based on headlines and short descriptions.
 
 ## Data 
-<p>This dataset contains around 125k news headlines from the year 2013 to 2018 obtained from HuffPost.</p>
+  This dataset contains around 125k news headlines from the year 2013 to 2018 obtained from HuffPost.
 
 <p>Sample data</p>
 
