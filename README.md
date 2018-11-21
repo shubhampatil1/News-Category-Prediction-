@@ -18,7 +18,7 @@
     <p>"category" : "CRIME"<p/></P>
 <p>}</p>
 
-##Content
+## Content
 <p>Each news headline has a corresponding category.</p>
 
 <p>Categories and corresponding article counts are as follows:</p>
