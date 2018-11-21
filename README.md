@@ -6,7 +6,7 @@
 ## Data 
   This dataset contains around 125k news headlines from the year 2013 to 2018 obtained from HuffPost.
   
-  Models implemented:
+  ###### Models implemented:
 
  * Multinomial Naive Bayes 
  * Support Vector Machines 
